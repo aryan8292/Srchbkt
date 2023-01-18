@@ -16,7 +16,7 @@ bot = Bot(TOKEN)
 
 def welcome(update, context) -> None:
     update.message.reply_text(f"Hello {update.message.from_user.first_name}, 🙏 Welcome To Our Movies Search Bot.\n"
-                              f"🍿 Directly Search From Movies Group 🍿.")
+                              f"🍿 Directly Search From Movies Group @allmoviesherejoinhindi 🍿.")
     update.message.reply_text("👇 Send Me Any Movie or Series Name 👇")
 
 

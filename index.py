@@ -15,9 +15,9 @@ bot = Bot(TOKEN)
 
 
 def welcome(update, context) -> None:
-    update.message.reply_text(f"Hello {update.message.from_user.first_name}, Welcome To Shortner Fly Search Bot.\n"
-                              f"🔥 Directly Search From The Bot.")
-    update.message.reply_text("👇 Enter Any Movie or Series Name 👇")
+    update.message.reply_text(f"Hello {update.message.from_user.first_name}, 🙏 Welcome To Our Movies Search Bot.\n"
+                              f"🍿 Directly Search From Movies Group 🍿.")
+    update.message.reply_text("👇 Send Me Any Movie or Series Name 👇")
 
 
 def find_movie(update, context):
